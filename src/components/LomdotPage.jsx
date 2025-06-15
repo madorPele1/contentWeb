@@ -29,14 +29,7 @@ const lomdot = [
 export default function LomdotPage() {
   return (
     <div>
-      <h2
-        style={{
-          fontSize: "9vmin",
-          color: "#333",
-        }}
-      >
-        לומדות
-      </h2>
+      <h2>לומדות</h2>
       <div
         style={{
           display: "flex",
@@ -49,10 +42,8 @@ export default function LomdotPage() {
         {lomdot.map((item, index) => (
           <div
             key={index}
+            className="card"
             style={{
-              padding: "1rem",
-              background: "#ffffffc2",
-              borderRadius: "20px",
               height: "30%",
               minHeight: "50svh",
               display: "flex",

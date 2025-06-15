@@ -19,6 +19,12 @@ h1 {
   font-weight: 800;
 }
 
+h2 {
+  color: #ff8800;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -52,4 +58,50 @@ nav a:hover {
   background-color: white;
   border-radius: 16px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.torot-container {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.torot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.card h3 {
+  color: #005a9c;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+}
+
+.card a {
+  color: #005a9c;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.card a:hover {
+  color: #ff8800;
 }
