@@ -20,12 +20,21 @@ h1 {
 }
 
 h2 {
+<<<<<<< HEAD
   color: #462908;
   margin-bottom: 2rem;
   font-size: 9vmin;
 }
 
 /* nav {
+=======
+  color: #ff8800;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+nav {
+>>>>>>> 16f9f80fd9a1b1e421357987cd6058fde626628a
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -101,4 +110,8 @@ nav img:click {
 
 .card a:hover {
   color: #ff8800;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 16f9f80fd9a1b1e421357987cd6058fde626628a
