@@ -11,12 +11,13 @@ function App() {
   return (
     <Router>
       <div style={{ textAlign: "center", padding: "1rem" }}>
-        <img style={{filter:" drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5))"}} src="/contentWeb/media/pakar.svg" alt="pakar" width="100" />
-        <h1 style={{}}>אתר חירום פיקודי</h1>
-        <nav style={{ display: "flex", justifyContent: "center", gap: "2rem" }}>
-          <Link to="/lomdot">לומדות</Link>
-          <Link to="/torot">תורות</Link>
-          <Link to="/bot">בוט חילוץ</Link>
+        <img style={{filter:" drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5))"}} src="/contentWeb/media/tohad.svg" alt="tohad" width="100" />
+        <h1 style={{ color: "#333", fontSize: "2.8rem", fontWeight: "900" }}>אתר הנגשת המידע</h1>
+        <nav style={{ display: "flex",width:"100%", justifyContent: "center", gap: "0.2rem", alignItems: "stretch",
+    flexDirection: "column "}}>
+          <Link to="/lomdot"> <img src="/contentWeb/media/lomdotBtn.svg" alt="tohad" width="220" /></Link>
+          <Link to="/torot"><img src="/contentWeb/media/torotBtn.svg" alt="tohad" width="220" /> </Link>
+          <Link to="/bot"><img src="/contentWeb/media/botBtn.svg" alt="tohad" width="220" /></Link>
         </nav>
         <Routes>
           <Route path="/lomdot" element={<LomdotPage />} />

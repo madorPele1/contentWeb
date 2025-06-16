@@ -4,18 +4,18 @@ const lomdot = [
     image: "/contentWeb/media/gdudim.png",
     link: "https://madorpele1.github.io/HomasLomda/",
   },
-  {
-    title: 'מילון פקע"ר',
-    image: "/contentWeb/media/milon.png",
-    link: "https://madorpele1.github.io/pakarDictionary/",
-  },
+  // {
+  //   title: 'מילון פקע"ר',
+  //   image: "/contentWeb/media/milon.png",
+  //   link: "https://madorpele1.github.io/pakarDictionary/",
+  // },
   {
     title: 'לומדת הע"ס',
     image: "/contentWeb/media/haas.png",
     link: "https://madorpele1.github.io/Aloha-Lomda/",
   },
   {
-    title: 'לומדת יועמ"ש',
+    title: 'לומדת דיני העורף והחירום',
     image: "/contentWeb/media/yoamash.png",
     link: "https://madorpele1.github.io/Yoamash/",
   },
@@ -84,6 +84,7 @@ export default function LomdotPage() {
                   height: "6vh",
                   border: "none",
                   margin: "2vh",
+                  boxShadow: "0 6px 20px rgba(0, 0, 0, 0.3)",
                 }}
               >
                 צפייה

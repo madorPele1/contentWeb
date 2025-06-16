@@ -21,19 +21,22 @@ export default function BotPage() {
         rel="noopener noreferrer"
       >
         <button
-         style={{
-                  backgroundColor: " #13527a",
-                  color: "white",
-                  fontFamily: "assistant",
-                  fontWeight: "600",
-                  fontSize: "6vmin",
-                  borderRadius: "20px",
-                  width: "35vw",
-                  height: "6vh",
-                  border: "none",
-                  margin: "2vh",
-                }}
-                >גישה לבוט</button>
+          style={{
+            backgroundColor: " #13527a",
+            color: "white",
+            fontFamily: "assistant",
+            fontWeight: "600",
+            fontSize: "6vmin",
+            borderRadius: "20px",
+            width: "35vw",
+            height: "6vh",
+            border: "none",
+            margin: "2vh",
+            boxShadow: "0 6px 20px rgba(0, 0, 0, 0.3)",
+          }}
+        >
+          גישה לבוט
+        </button>
       </a>
     </div>
   );
