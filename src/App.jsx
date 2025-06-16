@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div style={{ textAlign: "center", padding: "1rem" }}>
-        <img style={{filter:" drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5))"}} src="/contentWeb/media/pakar.svg" alt="pakar" width="100" />
+        <img style={{filter:" drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5))"}} src="/contentWeb/media/tohad.svg" alt="pakar" width="100" />
         <h1 style={{}}>אתר חירום פיקודי</h1>
         <nav style={{ display: "flex", justifyContent: "center", gap: "2rem" }}>
           <Link to="/lomdot">לומדות</Link>
